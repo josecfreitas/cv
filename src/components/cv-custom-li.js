@@ -3,6 +3,10 @@ import styled from "styled-components"
 
 const ContainerLi = styled.li`
 	margin-bottom: 1rem;
+	
+	p:last-child {
+		margin-bottom: 0;
+	}
 `
 
 const Header = styled.div`
@@ -20,11 +24,23 @@ const HeaderContent = styled.div`
 
 const Title = styled.span`
 	display: block;
+	font-size: 1.05rem;
+`
+
+const Subtitle = styled.small`
+	color: #706f6f;
 `
 
 const StartEnd = styled.span`
 	color: #706f6f;
 	font-size: 14px;
+`
+
+const Text = styled.div`
+	margin-top: 0.5rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #e9e9e9;
+	font-size: .9rem;
 `
 
 const CvCustomLi = ({ svg, children, title, subtitle, startEnd }) => (
@@ -34,12 +50,12 @@ const CvCustomLi = ({ svg, children, title, subtitle, startEnd }) => (
 			<HeaderContent>
 				<div>
 					<Title>{title}</Title>
-					<small>{subtitle}</small>
+					<Subtitle>{subtitle}</Subtitle>
 				</div>
 				<StartEnd>{startEnd}</StartEnd>
 			</HeaderContent>
 		</Header>
-		{children ? <p>{children}</p> : <></>}
+		{children ? <Text>{children}</Text> : <></>}
 	</ContainerLi>
 )
 

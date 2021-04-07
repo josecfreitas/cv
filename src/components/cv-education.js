@@ -37,6 +37,12 @@ const CvEducation = () => (
 				school="UNESP - IBILCE"
 				startEnd="2017~2020"
 			/>
+			<EducationItem
+				svg={<SvgEducation1 />}
+				degree="180+ Technology Courses"
+				school="Alura"
+				startEnd="2017~*"
+			/>
 		</ul>
 	</>
 )

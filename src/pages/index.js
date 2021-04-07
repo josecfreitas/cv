@@ -19,13 +19,13 @@ const IndexPage = () => (
 			<SEO description={"José Carlos' Curriculum Vitae"} />
 			<CvHeader>José Carlos de Freitas</CvHeader>
 			<Row>
-				<Col lg={5}>
+				<Col md={5} lg={4}>
 					<CvLinks />
 					<CvEducation />
 					<CvAchievements />
 					<CvLanguages />
 				</Col>
-				<Col lg={7}>
+				<Col md={7} lg={8}>
 					<CvAbout />
 					<CvCareer />
 					<CvSkills />

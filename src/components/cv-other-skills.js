@@ -10,7 +10,7 @@ const CvOtherSkills = () => (
 				title="Microsoft Office"
 				subtitle="Excel, Word and PowerPoint"
 			>
-				teste
+				<p>teste</p>
 			</CvCustomLi>
 			<CvCustomLi
 				title="Adobe"

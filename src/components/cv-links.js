@@ -21,12 +21,12 @@ const CvLinks = () => (
 		<CvLink
 			svg={<SvgGithub />}
 			link="https://github.com/jcfreitas2000"
-			linkText="https://github.com/jcfreitas2000"
+			linkText="github.com/jcfreitas2000"
 		/>
 		<CvLink
 			svg={<SvgLinkedin />}
 			link="https://www.linkedin.com/in/jose-carlos"
-			linkText="https://www.linkedin.com/in/jose-carlos"
+			linkText="linkedin.com/in/jose-carlos"
 		/>
 		<CvLink
 			svg={<SvgWhatsapp />}
@@ -36,7 +36,7 @@ const CvLinks = () => (
 		<CvLink
 			svg={<SvgAlura />}
 			link="https://cursos.alura.com.br/user/josecfreitas"
-			linkText="https://cursos.alura.com.br/user/josecfreitas"
+			linkText="alura.com.br/user/josecfreitas"
 		/>
 	</ul>
 )
