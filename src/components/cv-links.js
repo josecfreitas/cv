@@ -1,5 +1,5 @@
 import React from "react"
-import styled from "styled-components"
+import CvLiWithSvg from "./cv-li-with-svg"
 
 import SvgEmail from "../assets/svg/email.svg"
 import SvgGithub from "../assets/svg/github.svg"
@@ -7,18 +7,10 @@ import SvgLinkedin from "../assets/svg/linkedin.svg"
 import SvgWhatsapp from "../assets/svg/whatsapp.svg"
 import SvgAlura from "../assets/svg/alura.svg"
 
-const CvLinkLi = styled.li`
-	padding: 0;
-	display: flex;
-	gap: 1ch;
-	margin-bottom: 0.5rem;
-`
-
 const CvLink = ({ svg, link, linkText }) => (
-	<CvLinkLi>
-		<div>{svg}</div>
+	<CvLiWithSvg svg={svg}>
 		<a href={link}>{linkText}</a>
-	</CvLinkLi>
+	</CvLiWithSvg>
 )
 
 const CvLinks = () => (
@@ -35,8 +27,8 @@ const CvLinks = () => (
 		/>
 		<CvLink
 			svg={<SvgLinkedin />}
-			link="https://www.linkedin.com/in/jose-carlos/"
-			linkText="https://www.linkedin.com/in/jose-carlos/"
+			link="https://www.linkedin.com/in/jose-carlos"
+			linkText="https://www.linkedin.com/in/jose-carlos"
 		/>
 		<CvLink
 			svg={<SvgWhatsapp />}

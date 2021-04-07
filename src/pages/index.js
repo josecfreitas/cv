@@ -5,18 +5,21 @@ import SEO from "../components/seo"
 import { Col, Container, Row } from "react-bootstrap"
 import CvLinks from "../components/cv-links"
 import CvEducation from "../components/cv-education"
+import CvAchievements from "../components/cv-achievements"
+import CvTitle from "../components/cv-title"
 
 const IndexPage = () => (
 	<Layout>
 		<Container>
 			<SEO description={"José Carlos' Curriculum Vitae"} />
-			<h1>José Carlos de Freitas</h1>
+			<CvTitle>José Carlos de Freitas</CvTitle>
 			<Row>
-				<Col md={4}>
+				<Col md={5}>
 					<CvLinks />
 					<CvEducation />
+					<CvAchievements />
 				</Col>
-				<Col md={8}>
+				<Col md={7}>
 
 				</Col>
 			</Row>
