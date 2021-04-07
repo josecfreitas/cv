@@ -5,7 +5,7 @@ import styled from "styled-components"
 
 const CustomFooter = styled.footer`
 	padding: 2rem 0;
-  	margin-top: 2rem;
+	margin-top: 2rem;
 	background-color: #e9e9e9;
 `
 
@@ -14,7 +14,15 @@ const Footer = () => {
 		<CustomFooter>
 			<Container>
 				<div className="d-flex justify-content-between">
-					<span>©{new Date().getFullYear()}, José Carlos</span>
+					<span>
+						Updated on{" "}
+						{new Date().toLocaleDateString("en-US", {
+							year: "numeric",
+							month: "long",
+							day: "numeric",
+						})}
+						.
+					</span>
 					<span>Desenvolvido por José Carlos de Freitas</span>
 				</div>
 			</Container>

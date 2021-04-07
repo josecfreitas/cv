@@ -11,9 +11,11 @@ const HeaderContainer = styled.div`
 
 	font-size: 96px;
 
-	@media (max-width: 990px) {
-		font-size: 48px;
-		flex-direction: column;
+	@media not print {
+		@media (max-width: 990px) {
+			font-size: 48px;
+			flex-direction: column;
+		}
 	}
 `
 
@@ -21,8 +23,10 @@ const ProfileImage = styled(Img)`
 	width: 300px;
 	border-radius: 50%;
 
-	@media (max-width: 990px) {
-		width: 200px;
+	@media not print {
+		@media (max-width: 990px) {
+			width: 200px;
+		}
 	}
 `
 
