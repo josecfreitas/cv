@@ -6,16 +6,13 @@ const CvOtherSkills = () => (
 	<>
 		<CvSectionTitle>Other Skills</CvSectionTitle>
 		<ul className="list-unstyled">
-			<CvCustomLi
-				title="Microsoft Office"
-				subtitle="Excel, Word and PowerPoint"
-			>
-				<p>teste</p>
+			<CvCustomLi title="Microsoft Office">
+				<p>Word (9 years), Excel (5 years) and PowerPoint (2 years).</p>
 			</CvCustomLi>
-			<CvCustomLi
-				title="Adobe"
-				subtitle="Adobe XD, Photoshop and Illustrator"
-			/>
+			<CvCustomLi title="Adobe">
+				Adobe Illustrator (trained in 2020), Adobe Photoshop (trained in
+				2020) and Adobe XD (trained in 2020).
+			</CvCustomLi>
 		</ul>
 	</>
 )
