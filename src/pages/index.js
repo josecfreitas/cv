@@ -7,7 +7,7 @@ import CvLinks from "../components/cv-links"
 import CvEducation from "../components/cv-education"
 import CvAchievements from "../components/cv-achievements"
 import CvHeader from "../components/cv-header"
-import CvBio from "../components/cv-bio"
+import CvAbout from "../components/cv-bio"
 import CvCareer from "../components/cv-career"
 import CvSkills from "../components/cv-skills"
 import CvLanguages from "../components/cv-languages"
@@ -26,7 +26,7 @@ const IndexPage = () => (
 					<CvLanguages />
 				</Col>
 				<Col lg={7}>
-					<CvBio />
+					<CvAbout />
 					<CvCareer />
 					<CvSkills />
 					<CvOtherSkills />
