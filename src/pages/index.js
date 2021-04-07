@@ -2,16 +2,25 @@ import React from "react"
 
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
-import { Container } from "react-bootstrap"
-import SvgFluid from "../components/svg-fluid"
-import logoSvg from "../assets/svg/logo.svg"
+import { Col, Container, Row } from "react-bootstrap"
+import CvLinks from "../components/cv-links"
+import CvEducation from "../components/cv-education"
 
 const IndexPage = () => (
 	<Layout>
 		<Container>
-			<SEO title="Organizadora de eventos" />
-			<h1>Escreva a landing page aqui</h1>
-			<SvgFluid id={logoSvg.id} desc={"Logo da 3R"} width="200px" />
+			<SEO description={"José Carlos' Curriculum Vitae"} />
+			<h1>José Carlos de Freitas</h1>
+			<Row>
+				<Col md={4}>
+					<CvLinks />
+					<CvEducation />
+				</Col>
+				<Col md={8}>
+
+				</Col>
+			</Row>
+
 		</Container>
 	</Layout>
 )

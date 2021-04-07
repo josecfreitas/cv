@@ -6,12 +6,9 @@ const Footer = () => {
 		<footer>
 			<Container>
 				<div className="d-flex justify-content-between">
-					<span>©{new Date().getFullYear()}, 3R Eventos</span>
+					<span>©{new Date().getFullYear()}, José Carlos</span>
 					<span>
-						Desenvolvido por{" "}
-						<a href="https://agencia3r.com.br" target="agencia3r">
-							3r Agência
-						</a>
+						Desenvolvido por José Carlos de Freitas
 					</span>
 				</div>
 			</Container>

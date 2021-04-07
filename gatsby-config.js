@@ -1,15 +1,15 @@
-const name = 'Nome do site'
-const shortName = 'Site'
-const description = 'Apenas mais uma linda Landing Page da 3r Agência'
+const name = 'José Carlos\' CV'
+const shortName = 'CV'
+const description = 'José Carlos de Freitas\' Curriculum Vitae'
 
-const primaryColor = '#990000'
-const bgColor = '#ffffff'
+const primaryColor = '#4A4A49'
+const bgColor = '#4A4A49'
 
 module.exports = {
 	siteMetadata: {
 		title: name,
 		description: description,
-		author: `3r Agência`,
+		author: `José Carlos de Freitas`,
 	},
 	plugins: [
 		`gatsby-plugin-react-helmet`,
@@ -21,7 +21,6 @@ module.exports = {
 			},
 		},
 		`gatsby-transformer-sharp`,
-		`gatsby-plugin-svg-sprite`,
 		`gatsby-plugin-styled-components`,
 		`gatsby-plugin-sharp`,
 		`gatsby-plugin-sass`,
@@ -41,5 +40,22 @@ module.exports = {
 			},
 		},
 		"gatsby-plugin-offline",
+		{
+			resolve: "gatsby-plugin-react-svg",
+			options: {
+				rule: {
+					include: /assets/
+				}
+			}
+		},
+		{
+			resolve: `gatsby-plugin-google-fonts`,
+			options: {
+				fonts: [
+					`Montserrat\:400`,
+				],
+				display: 'swap'
+			}
+		},
 	],
 }
