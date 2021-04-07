@@ -1,17 +1,21 @@
 import React from "react"
 import CvSectionTitle from "./cv-section-title"
-import CvLiWithSvg from "./cv-li-with-svg"
+import CvCustomLi from "./cv-custom-li"
 
 const CvOtherSkills = () => (
 	<>
-		<CvSectionTitle>Skills</CvSectionTitle>
+		<CvSectionTitle>Other Skills</CvSectionTitle>
 		<ul className="list-unstyled">
-			<CvLiWithSvg subtitle="Excel, Word and PowerPoint">
-				Microsoft Office
-			</CvLiWithSvg>
-			<CvLiWithSvg subtitle="Adobe XD, Photoshop and Illustrator">
-				Adobe
-			</CvLiWithSvg>
+			<CvCustomLi
+				title="Microsoft Office"
+				subtitle="Excel, Word and PowerPoint"
+			>
+				teste
+			</CvCustomLi>
+			<CvCustomLi
+				title="Adobe"
+				subtitle="Adobe XD, Photoshop and Illustrator"
+			/>
 		</ul>
 	</>
 )

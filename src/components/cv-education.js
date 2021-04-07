@@ -1,15 +1,18 @@
 import React from "react"
 import CvSectionTitle from "./cv-section-title"
-import CvLiWithSvg from "./cv-li-with-svg"
+import CvCustomLi from "./cv-custom-li"
 
 import SvgEducation1 from "../assets/svg/education1.svg"
 import SvgEducation2 from "../assets/svg/education2.svg"
 import SvgEducation3 from "../assets/svg/education3.svg"
 
 const EducationItem = ({ svg, degree, school, startEnd }) => (
-	<CvLiWithSvg svg={svg} subtitle={school} startEnd={startEnd}>
-		{degree}
-	</CvLiWithSvg>
+	<CvCustomLi
+		svg={svg}
+		title={degree}
+		subtitle={school}
+		startEnd={startEnd}
+	/>
 )
 
 const CvEducation = () => (

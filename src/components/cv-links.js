@@ -1,5 +1,5 @@
 import React from "react"
-import CvLiWithSvg from "./cv-li-with-svg"
+import CvCustomLi from "./cv-custom-li"
 
 import SvgEmail from "../assets/svg/email.svg"
 import SvgGithub from "../assets/svg/github.svg"
@@ -8,9 +8,7 @@ import SvgWhatsapp from "../assets/svg/whatsapp.svg"
 import SvgAlura from "../assets/svg/alura.svg"
 
 const CvLink = ({ svg, link, linkText }) => (
-	<CvLiWithSvg svg={svg}>
-		<a href={link}>{linkText}</a>
-	</CvLiWithSvg>
+	<CvCustomLi svg={svg} title={<a href={link}>{linkText}</a>} />
 )
 
 const CvLinks = () => (

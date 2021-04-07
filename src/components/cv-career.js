@@ -1,23 +1,31 @@
 import React from "react"
 import CvSectionTitle from "./cv-section-title"
-import CvLiWithSvg from "./cv-li-with-svg"
+import CvCustomLi from "./cv-custom-li"
 
 const CvCareer = () => (
 	<>
 		<CvSectionTitle>Career</CvSectionTitle>
 		<ul className="list-unstyled">
-			<CvLiWithSvg subtitle="Database Group - GBD" startEnd="2014~2018">
-				Java Full Stack Developer
-			</CvLiWithSvg>
-			<CvLiWithSvg subtitle="Bicrement Software House" startEnd="2016~2019">
-				Co-founder / Software Enginner
-			</CvLiWithSvg>
-			<CvLiWithSvg subtitle="3r Agência" startEnd="2020~2020">
-				Co-founder / Software Enginner
-			</CvLiWithSvg>
-			<CvLiWithSvg subtitle="QAT Global" startEnd="2020~*">
-				Advanced Programmer Analyst
-			</CvLiWithSvg>
+			<CvCustomLi
+				title="Java Full Stack Developer"
+				subtitle="Database Group - GBD"
+				startEnd="2014~2018"
+			/>
+			<CvCustomLi
+				title="Co-founder / Software Enginner"
+				subtitle="Bicrement Software House"
+				startEnd="2016~2019"
+			/>
+			<CvCustomLi
+				title="Co-founder / Software Enginner"
+				subtitle="3r Agência"
+				startEnd="2020~2020"
+			/>
+			<CvCustomLi
+				title="Advanced Programmer Analyst"
+				subtitle="QAT Global"
+				startEnd="2020~*"
+			/>
 		</ul>
 	</>
 )
