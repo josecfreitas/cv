@@ -1,5 +1,6 @@
 import React from "react"
 import CvCustomLi from "./cv-custom-li"
+import styled from "styled-components"
 
 import SvgEmail from "../assets/svg/email.svg"
 import SvgGithub from "../assets/svg/github.svg"
@@ -7,8 +8,17 @@ import SvgLinkedin from "../assets/svg/linkedin.svg"
 import SvgWhatsapp from "../assets/svg/whatsapp.svg"
 import SvgAlura from "../assets/svg/alura.svg"
 
+const CustomLink = styled.a`
+	@media print {
+		text-decoration: none !important;
+	}
+`
+
 const CvLink = ({ svg, link, linkText }) => (
-	<CvCustomLi svg={svg} title={<a href={link}>{linkText}</a>} />
+	<CvCustomLi
+		svg={svg}
+		title={<CustomLink href={link}>{linkText}</CustomLink>}
+	/>
 )
 
 const CvLinks = () => (
