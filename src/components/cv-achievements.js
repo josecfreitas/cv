@@ -16,6 +16,7 @@ const CvAchievements = () => (
 					<a
 						href="https://www.inderscience.com/info/inarticle.php?artid=106061"
 						target="_blank"
+						rel="noreferrer"
 					>
 						inderscience.com/info/inarticle.php?artid=106061
 					</a>
@@ -29,6 +30,7 @@ const CvAchievements = () => (
 					<a
 						href="https://ieeexplore.ieee.org/abstract/document/8327078"
 						target="_blank"
+						rel="noreferrer"
 					>
 						ieeexplore.ieee.org/abstract/document/8327078
 					</a>
@@ -40,7 +42,11 @@ const CvAchievements = () => (
 				university restaurant from 30 minutes to 1 minute by developing
 				a system and optimizing the sales process."
 				subtitle={
-					<a href="https://sru.ibilce.unesp.br" target="_blank">
+					<a
+						href="https://sru.ibilce.unesp.br"
+						target="_blank"
+						rel="noreferrer"
+					>
 						sru.ibilce.unesp.br
 					</a>
 				}

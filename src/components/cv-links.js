@@ -12,7 +12,7 @@ const CvLink = ({ svg, link, linkText }) => (
 	<CvCustomLi
 		svg={svg}
 		title={
-			<a href={link} target="_blank">
+			<a href={link} target="_blank" rel="noreferrer">
 				{linkText}
 			</a>
 		}

@@ -9,10 +9,17 @@ const ContainerLi = styled.li`
 	}
 `
 
+const SvgContainer = styled.div`
+	margin-right: 1ch;
+
+	svg {
+		width: 1.5rem;
+	}
+`
+
 const Header = styled.div`
 	display: flex;
 	align-items: center;
-	gap: 1ch;
 `
 
 const HeaderContent = styled.div`
@@ -36,6 +43,7 @@ const Subtitle = styled.small`
 const StartEnd = styled.span`
 	color: #706f6f;
 	font-size: 14px;
+	margin-left: 1ch;
 `
 
 const Text = styled.div`
@@ -48,7 +56,7 @@ const Text = styled.div`
 const CvCustomLi = ({ svg, children, title, subtitle, startEnd }) => (
 	<ContainerLi>
 		<Header>
-			{svg ? <div>{svg}</div> : <></>}
+			{svg ? <SvgContainer>{svg}</SvgContainer> : <></>}
 			<HeaderContent>
 				<div>
 					<Title>{title}</Title>

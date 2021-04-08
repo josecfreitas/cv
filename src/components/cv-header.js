@@ -39,7 +39,7 @@ const CvHeader = ({ children }) => {
 		query {
 			profile: file(relativePath: { eq: "profile.jpg" }) {
 				childImageSharp {
-					fluid(maxWidth: 500) {
+					fluid(maxWidth: 300) {
 						...GatsbyImageSharpFluid_withWebp
 					}
 				}

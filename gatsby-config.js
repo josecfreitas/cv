@@ -1,9 +1,9 @@
-const name = 'José Carlos\' CV'
-const shortName = 'CV'
-const description = 'José Carlos de Freitas\' Curriculum Vitae'
+const name = "José Carlos' CV"
+const shortName = "CV"
+const description = "José Carlos de Freitas' Curriculum Vitae"
 
-const primaryColor = '#4A4A49'
-const bgColor = '#4A4A49'
+const primaryColor = "#4A4A49"
+const bgColor = "#4A4A49"
 
 module.exports = {
 	siteMetadata: {
@@ -44,18 +44,16 @@ module.exports = {
 			resolve: "gatsby-plugin-react-svg",
 			options: {
 				rule: {
-					include: /assets/
-				}
-			}
+					include: /assets/,
+				},
+			},
 		},
 		{
 			resolve: `gatsby-plugin-google-fonts`,
 			options: {
-				fonts: [
-					`Montserrat\:400,500`,
-				],
-				display: 'swap'
-			}
+				fonts: [`Montserrat\:400,500`],
+				display: "swap",
+			},
 		},
 	],
 }

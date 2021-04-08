@@ -8,7 +8,7 @@ const CvSkills = () => (
 		<ul className="list-unstyled">
 			<CvCustomLi title="Languages">
 				<p>
-					Java11 (1 year), Java8 (3 years), Java7 (5 years), HTML (7
+					Java11 (1 year), Java8 (3 years), Java7 (3 years), HTML (7
 					years), CSS (7 years), JavaScript (7 years), Scala (trained
 					in 2018), Node (trained in 2018), PHP (trained in 2017), C#
 					(trained in 2016), C (trained in 2013), C++ (trained in

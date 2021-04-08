@@ -30,6 +30,7 @@ const IndexPage = () => (
 					<CvCareer />
 					<CvSkills />
 					<CvOtherSkills />
+					{/*<CvProjects />*/}
 				</Col>
 			</Row>
 		</Container>
