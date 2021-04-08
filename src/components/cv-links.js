@@ -1,23 +1,21 @@
 import React from "react"
 import CvCustomLi from "./cv-custom-li"
-import styled from "styled-components"
 
 import SvgEmail from "../assets/svg/email.svg"
 import SvgGithub from "../assets/svg/github.svg"
 import SvgLinkedin from "../assets/svg/linkedin.svg"
 import SvgWhatsapp from "../assets/svg/whatsapp.svg"
 import SvgAlura from "../assets/svg/alura.svg"
-
-const CustomLink = styled.a`
-	@media print {
-		text-decoration: none !important;
-	}
-`
+import SvgSite from "../assets/svg/site.svg"
 
 const CvLink = ({ svg, link, linkText }) => (
 	<CvCustomLi
 		svg={svg}
-		title={<CustomLink href={link}>{linkText}</CustomLink>}
+		title={
+			<a href={link} target="_blank">
+				{linkText}
+			</a>
+		}
 	/>
 )
 
@@ -47,6 +45,11 @@ const CvLinks = () => (
 			svg={<SvgAlura />}
 			link="https://cursos.alura.com.br/user/josecfreitas"
 			linkText="alura.com.br/user/josecfreitas"
+		/>
+		<CvLink
+			svg={<SvgSite />}
+			link="https://josecarlos.tec.br"
+			linkText="josecarlos.tec.br"
 		/>
 	</ul>
 )

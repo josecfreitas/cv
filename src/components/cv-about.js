@@ -1,7 +1,7 @@
 import React from "react"
 import CvSectionTitle from "./cv-section-title"
 
-const CvBio = () => (
+const CvAbout = () => (
 	<>
 		<CvSectionTitle>About</CvSectionTitle>
 		<p>
@@ -15,4 +15,4 @@ const CvBio = () => (
 	</>
 )
 
-export default CvBio
+export default CvAbout

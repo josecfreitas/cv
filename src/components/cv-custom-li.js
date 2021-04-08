@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 const ContainerLi = styled.li`
 	margin-bottom: 1rem;
-	
+
 	p:last-child {
 		margin-bottom: 0;
 	}
@@ -24,11 +24,13 @@ const HeaderContent = styled.div`
 
 const Title = styled.span`
 	display: block;
-	font-size: 1.05rem;
+	font-weight: 500;
+	word-break: break-word;
 `
 
 const Subtitle = styled.small`
 	color: #706f6f;
+	word-break: break-word;
 `
 
 const StartEnd = styled.span`
@@ -40,7 +42,7 @@ const Text = styled.div`
 	margin-top: 0.5rem;
 	padding-bottom: 1rem;
 	border-bottom: 1px solid #e9e9e9;
-	font-size: .9rem;
+	font-size: 0.9rem;
 `
 
 const CvCustomLi = ({ svg, children, title, subtitle, startEnd }) => (

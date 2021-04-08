@@ -21,15 +21,9 @@ const CvEducation = () => (
 		<ul className="list-unstyled">
 			<EducationItem
 				svg={<SvgEducation1 />}
-				degree="Computer Technician"
-				school="ETEC Philadelpho Gouvea Netto"
-				startEnd="2011~2012"
-			/>
-			<EducationItem
-				svg={<SvgEducation2 />}
-				degree="Bachelor's in Computer Science"
-				school="UNESP - IBILCE"
-				startEnd="2013~2016"
+				degree="180+ Technology Courses"
+				school="Alura"
+				startEnd="2017~*"
 			/>
 			<EducationItem
 				svg={<SvgEducation3 />}
@@ -38,10 +32,16 @@ const CvEducation = () => (
 				startEnd="2017~2020"
 			/>
 			<EducationItem
+				svg={<SvgEducation2 />}
+				degree="Bachelor's in Computer Science"
+				school="UNESP - IBILCE"
+				startEnd="2013~2016"
+			/>
+			<EducationItem
 				svg={<SvgEducation1 />}
-				degree="180+ Technology Courses"
-				school="Alura"
-				startEnd="2017~*"
+				degree="Computer Technician"
+				school="ETEC Philadelpho Gouvea Netto"
+				startEnd="2011~2012"
 			/>
 		</ul>
 	</>
