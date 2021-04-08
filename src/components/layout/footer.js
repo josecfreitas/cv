@@ -13,7 +13,7 @@ const Footer = () => {
 	return (
 		<CustomFooter>
 			<Container>
-				<div className="d-flex justify-content-between">
+				<div className="d-flex justify-content-between flex-wrap">
 					<span>
 						Updated on{" "}
 						{new Date().toLocaleDateString("en-US", {
@@ -23,7 +23,7 @@ const Footer = () => {
 						})}
 						.
 					</span>
-					<span>Desenvolvido por José Carlos de Freitas</span>
+					<span>Developed by José Carlos de Freitas</span>
 				</div>
 			</Container>
 		</CustomFooter>
