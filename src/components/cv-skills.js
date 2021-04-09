@@ -6,7 +6,7 @@ const CvSkills = () => (
 	<>
 		<CvSectionTitle>Skills</CvSectionTitle>
 		<ul className="list-unstyled">
-			<CvCustomLi title="Languages">
+			<CvCustomLi title="Programming Languages">
 				<p>
 					Java11 (1 year), Java8 (3 years), Java7 (3 years), HTML (7
 					years), CSS (7 years), JavaScript (7 years), Scala (trained
@@ -18,7 +18,7 @@ const CvSkills = () => (
 			<CvCustomLi title="Databases">
 				<p>
 					PostgresQL (7 years), MySql (2 years), Neo4j (2 years),
-					MongoDB (trained in 2020), Reddis (trained in 2019), Sqlite
+					MongoDB (trained in 2020), Redis (trained in 2019), Sqlite
 					(trained in 2012).
 				</p>
 			</CvCustomLi>

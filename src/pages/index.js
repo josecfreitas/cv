@@ -12,6 +12,7 @@ import CvCareer from "../components/cv-career"
 import CvSkills from "../components/cv-skills"
 import CvLanguages from "../components/cv-languages"
 import CvOtherSkills from "../components/cv-other-skills"
+import CvProjects from "../components/cv-projects"
 
 const IndexPage = () => (
 	<Layout>
@@ -30,7 +31,7 @@ const IndexPage = () => (
 					<CvCareer />
 					<CvSkills />
 					<CvOtherSkills />
-					{/*<CvProjects />*/}
+					<CvProjects />
 				</Col>
 			</Row>
 		</Container>
