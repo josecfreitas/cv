@@ -59,10 +59,10 @@ const CvCustomLi = ({ svg, children, title, subtitle, startEnd }) => (
 			{svg ? <SvgContainer>{svg}</SvgContainer> : <></>}
 			<HeaderContent>
 				<div>
-					<Title>{title}</Title>
-					<Subtitle>{subtitle}</Subtitle>
+					{title ? <Title>{title}</Title> : <></>}
+					{subtitle ? <Subtitle>{subtitle}</Subtitle> : <></>}
 				</div>
-				<StartEnd>{startEnd}</StartEnd>
+				{startEnd ? <StartEnd>{startEnd}</StartEnd> : <></>}
 			</HeaderContent>
 		</Header>
 		{children ? <Text>{children}</Text> : <></>}

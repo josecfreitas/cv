@@ -4,7 +4,10 @@ import CvCustomLi from "./cv-custom-li"
 import CvLinkNewTab from "./cv-link-new-tab"
 
 const CvLiWithLink = ({ children, title, link }) => (
-	<CvCustomLi title={title} subtitle={<CvLinkNewTab link={link} />}>
+	<CvCustomLi
+		title={title}
+		subtitle={link ? <CvLinkNewTab link={link} /> : ""}
+	>
 		{children}
 	</CvCustomLi>
 )
