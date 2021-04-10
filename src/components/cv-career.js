@@ -1,6 +1,7 @@
 import React from "react"
 import CvSectionTitle from "./cv-section-title"
 import CvCustomLi from "./cv-custom-li"
+import CvLinkNewTab from "./cv-link-new-tab"
 
 const CvCareer = () => (
 	<>
@@ -8,7 +9,11 @@ const CvCareer = () => (
 		<ul className="list-unstyled">
 			<CvCustomLi
 				title="Advanced Programmer Analyst"
-				subtitle="QAT Global"
+				subtitle={
+					<CvLinkNewTab link="https://www.qat.com">
+						QAT Global
+					</CvLinkNewTab>
+				}
 				startEnd="2020~*"
 			>
 				Developing and maintaining a large utility automation
@@ -18,7 +23,11 @@ const CvCareer = () => (
 			</CvCustomLi>
 			<CvCustomLi
 				title="Co-founder / Software Enginner"
-				subtitle="Bicrement Software House and 3r Agência"
+				subtitle={
+					<CvLinkNewTab link="https://agencia3r.com.br">
+						Bicrement Software House and 3r Agência
+					</CvLinkNewTab>
+				}
 				startEnd="2016~2020"
 			>
 				Creating solutions with technology for entrepreneurs and
@@ -30,7 +39,11 @@ const CvCareer = () => (
 			</CvCustomLi>
 			<CvCustomLi
 				title="Co-founder"
-				subtitle="3R Eventos"
+				subtitle={
+					<CvLinkNewTab link="https://eventos3r.com.br">
+						3R Eventos
+					</CvLinkNewTab>
+				}
 				startEnd="2018~2020"
 			>
 				Doing parties with an average audience of 1100 people. The last
@@ -51,7 +64,11 @@ const CvCareer = () => (
 			</CvCustomLi>
 			<CvCustomLi
 				title="Project Leader"
-				subtitle="Database Group - GBD"
+				subtitle={
+					<CvLinkNewTab link="https://www.grupogbd.com">
+						Database Group - GBD
+					</CvLinkNewTab>
+				}
 				startEnd="2016~2018"
 			>
 				The main responsibilities as a project leader were:
@@ -82,7 +99,11 @@ const CvCareer = () => (
 			</CvCustomLi>
 			<CvCustomLi
 				title="Java Full Stack Developer"
-				subtitle="Database Group - GBD"
+				subtitle={
+					<CvLinkNewTab link="https://www.grupogbd.com">
+						Database Group - GBD
+					</CvLinkNewTab>
+				}
 				startEnd="2014~2015"
 			>
 				Developing and maintaining Database Group's systems. Worked with

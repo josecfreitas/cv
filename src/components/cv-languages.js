@@ -7,7 +7,7 @@ const CvLanguages = () => (
 		<CvSectionTitle>Languages</CvSectionTitle>
 		<ul className="list-unstyled">
 			<CvCustomLi title="Portuguese" subtitle="Native" />
-			<CvCustomLi title="English" subtitle="Advanced" />
+			<CvCustomLi title="English" subtitle="Advanced (B1~B2)" />
 		</ul>
 	</>
 )

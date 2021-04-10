@@ -1,6 +1,10 @@
 const name = "José Carlos' CV"
-const shortName = "CV"
-const description = "José Carlos de Freitas' Curriculum Vitae"
+const shortName = "JC"
+const description =
+	"Master’s and Bachelor's in Computer Science" +
+	" with 2 international articles," +
+	" Java developer, 180+ technology courses," +
+	" developed 30+ tech projects."
 
 const primaryColor = "#4A4A49"
 const bgColor = "#4A4A49"
@@ -17,9 +21,9 @@ module.exports = {
 			options: {
 				formatAsDateString: true,
 				formatting: {
-					format: 'MMM DD, YYYY',
+					format: "MMM DD, YYYY",
 				},
-			}
+			},
 		},
 		`gatsby-plugin-react-helmet`,
 		{
@@ -33,6 +37,21 @@ module.exports = {
 		`gatsby-plugin-styled-components`,
 		`gatsby-plugin-sharp`,
 		`gatsby-plugin-sass`,
+		{
+			resolve: "gatsby-plugin-react-svg",
+			options: {
+				rule: {
+					include: /assets/,
+				},
+			},
+		},
+		{
+			resolve: `gatsby-plugin-google-fonts`,
+			options: {
+				fonts: [`Montserrat\:400,500`],
+				display: "swap",
+			},
+		},
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
@@ -49,20 +68,5 @@ module.exports = {
 			},
 		},
 		"gatsby-plugin-offline",
-		{
-			resolve: "gatsby-plugin-react-svg",
-			options: {
-				rule: {
-					include: /assets/,
-				},
-			},
-		},
-		{
-			resolve: `gatsby-plugin-google-fonts`,
-			options: {
-				fonts: [`Montserrat\:400,500`],
-				display: "swap",
-			},
-		},
 	],
 }
