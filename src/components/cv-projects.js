@@ -17,8 +17,8 @@ const CvProjects = () => (
 	<>
 		<CvSectionTitle>Projects</CvSectionTitle>
 		<ul className="list-unstyled">
-			<CvLiWithLink title="USA's utility automation" startEnd="2021~*">
-				Developing and maintaining a large utility automation
+			<CvLiWithLink title="USA's utilities automation" startEnd="2021~*">
+				Developing and maintaining a large utilities automation
 				application. Working with Scrum, Java, Spring Boot, SQL Server,
 				HTML, CSS, JavaScript, jQuery, Jenkins, Unit Testing (JUnit) and
 				SVN.
@@ -36,14 +36,18 @@ const CvProjects = () => (
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="Mais Fácil Contabilidade"
-				link="http://maisfacilcontabil.com.br"
+				link="https://maisfacilcontabil.com.br"
 				startEnd="2020"
 			>
 				Concepting, developing and maintaining an online brokerage
 				platform. Worked with Java11, Spring Boot, Hibernate/JPA,
 				PostgreSQL, Angular10, HTML, CSS, TypeScript and PO UI.
 			</CvLiWithLink>
-			<CvLiWithLink title="WeHoo" startEnd="2020">
+			<CvLiWithLink
+				title="WeHoo"
+				link="https://wehoo.com.br"
+				startEnd="2020"
+			>
 				Concepting, developing and maintaining a platform for product
 				indication and commissioning. Worked with Java11, Spring Boot,
 				Hibernate/JPA, PostgreSQL, Angular10, HTML, CSS, TypeScript, PO
@@ -51,7 +55,7 @@ const CvProjects = () => (
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="Linharia"
-				link="http://linharia.com.br"
+				link="https://linharia.com.br"
 				startEnd="2020"
 			>
 				Concepting, developing and maintaining a women's fashion
@@ -68,7 +72,7 @@ const CvProjects = () => (
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="AllLux"
-				link="http://alllux.ind.br"
+				link="https://alllux.ind.br"
 				startEnd="2020"
 			>
 				Concepting and developing a landing page for a light company.
@@ -84,7 +88,7 @@ const CvProjects = () => (
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="3R Eventos"
-				link="https://eventos3r.com.br/"
+				link="https://eventos3r.com.br"
 				startEnd="2020"
 			>
 				Concepting and developing a landing page for a events (parties)
@@ -182,7 +186,7 @@ const CvProjects = () => (
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="ÁreaBim"
-				link="https://areabim.com.br/"
+				link="https://areabim.com.br"
 				startEnd="2017"
 			>
 				Concepting, developing and maintaining a building management
@@ -193,21 +197,21 @@ const CvProjects = () => (
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="Itallian Rio Preto"
-				link="https://itallian.riopreto.br/"
+				link="https://itallian.riopreto.br"
 				startEnd="2016~2017"
 			>
 				Concepting, developing and maintaining a platform for managing a
 				semi-jewelry company. Worked with Java8, Spring Boot,
 				Hibernate/JPA, PostgreSQL, Thymeleaf, HTML, CSS, JavaScript,
 				jQuery, MaterializeCSS,{" "}
-				<CvLinkNewTab link="https://pagseguro.uol.com.br/">
+				<CvLinkNewTab link="https://pagseguro.uol.com.br">
 					PagSeguro
 				</CvLinkNewTab>{" "}
 				integration and NFe integration.
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="RD SemiJoias"
-				link="https://rdsemijoias.com.br/"
+				link="https://rdsemijoias.com.br"
 				startEnd="2017"
 			>
 				Concepting, developing and maintaining a platform for managing a
@@ -217,7 +221,7 @@ const CvProjects = () => (
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="SRU - Sistema do Restaurante Universitário"
-				link="https://sru.ibilce.unesp.br/"
+				link="https://sru.ibilce.unesp.br"
 				startEnd="2016"
 			>
 				Concepting, developing and maintaining a platform for managing
@@ -262,7 +266,7 @@ const CvProjects = () => (
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="Portal PROPe"
-				link="http://www.gbd.sasd.ibilce.unesp.br/PortalPROPe/"
+				link="http://www.gbd.sasd.ibilce.unesp.br/PortalPROPe"
 				startEnd="2015~2017"
 			>
 				Developing and maintaining a platform to show information of
