@@ -29,6 +29,8 @@ const IndexPage = () => (
 				<Col md={7} lg={8}>
 					<CvAbout />
 					<CvCareer />
+				</Col>
+				<Col lg={{offset: 4, span: 8}}>
 					<CvSkills />
 					<CvOtherSkills />
 					<CvProjects />
