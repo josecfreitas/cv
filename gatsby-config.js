@@ -12,6 +12,15 @@ module.exports = {
 		author: `José Carlos de Freitas`,
 	},
 	plugins: [
+		{
+			resolve: `gatsby-plugin-build-date`,
+			options: {
+				formatAsDateString: true,
+				formatting: {
+					format: 'MMM DD, YYYY',
+				},
+			}
+		},
 		`gatsby-plugin-react-helmet`,
 		{
 			resolve: `gatsby-source-filesystem`,
