@@ -7,7 +7,7 @@ const description =
 	" developed 30+ tech projects."
 
 const primaryColor = "#4A4A49"
-const bgColor = "#4A4A49"
+const bgColor = "#ffffff"
 
 module.exports = {
 	siteMetadata: {
