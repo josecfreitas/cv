@@ -20,7 +20,7 @@ const CvProjects = () => (
 			<CvLiWithLink title="USA's utilities automation" startEnd="2021~*">
 				Developing and maintaining a large utilities automation
 				application. Working with Scrum, Java, Spring Boot, SQL Server,
-				HTML, CSS, JavaScript, jQuery, Jenkins, Unit Testing (JUnit) and
+				HTML, CSS, JavaScript, jQuery, Jenkins, Unit Testing (JUnit), and
 				SVN.
 			</CvLiWithLink>
 			<CvLiWithLink
@@ -31,7 +31,7 @@ const CvProjects = () => (
 				Concepting, developing and maintaining one of the largest online
 				farm catalog in Brazil, which receives over a thousand daily
 				accesses. Worked with Java8, Spring Boot, Hibernate/JPA,
-				PostgreSQL, Thymeleaf, HTML, CSS, JavaScript, jQuery, Bootstrap
+				PostgreSQL, Thymeleaf, HTML, CSS, JavaScript, jQuery, Bootstrap,
 				and Google Maps.
 			</CvLiWithLink>
 			<CvLiWithLink
@@ -41,7 +41,7 @@ const CvProjects = () => (
 			>
 				Concepting, developing and maintaining an online brokerage
 				platform. Worked with Java11, Spring Boot, Hibernate/JPA,
-				PostgreSQL, Angular10, HTML, CSS, TypeScript and PO UI.
+				PostgreSQL, Angular10, HTML, CSS, TypeScript, and PO UI.
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="WeHoo"
@@ -51,7 +51,7 @@ const CvProjects = () => (
 				Concepting, developing and maintaining a platform for product
 				indication and commissioning. Worked with Java11, Spring Boot,
 				Hibernate/JPA, PostgreSQL, Angular10, HTML, CSS, TypeScript, PO
-				UI, React, Bootstrap and NextJS.
+				UI, React, Bootstrap, and NextJS.
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="Linharia"
@@ -60,7 +60,7 @@ const CvProjects = () => (
 			>
 				Concepting, developing and maintaining a women's fashion
 				ecommerce. Worked with Wordpress, WooCommerce, PHP, MySQL, HTML,
-				CSS and JavaScript.
+				CSS, and JavaScript.
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="Santos & Pinheiro"
@@ -68,7 +68,7 @@ const CvProjects = () => (
 				startEnd="2020"
 			>
 				Concepting and developing a landing page for a law firm. Worked
-				with HTML, CSS, JavaScript, React and Gatsby.
+				with HTML, CSS, JavaScript, React, and Gatsby.
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="AllLux"
@@ -76,7 +76,7 @@ const CvProjects = () => (
 				startEnd="2020"
 			>
 				Concepting and developing a landing page for a light company.
-				Worked with HTML, CSS, JavaScript, React and Gatsby.
+				Worked with HTML, CSS, JavaScript, React, and Gatsby.
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="TecSolar"
@@ -84,7 +84,7 @@ const CvProjects = () => (
 				startEnd="2020"
 			>
 				Concepting and developing a landing page for a solar energy
-				company. Worked with HTML, CSS, JavaScript, React and Gatsby.
+				company. Worked with HTML, CSS, JavaScript, React, and Gatsby.
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="3R Eventos"
@@ -92,7 +92,7 @@ const CvProjects = () => (
 				startEnd="2020"
 			>
 				Concepting and developing a landing page for a events (parties)
-				company. Worked with HTML, CSS, JavaScript, React and Gatsby.
+				company. Worked with HTML, CSS, JavaScript, React, and Gatsby.
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="3r Agência"
@@ -100,12 +100,12 @@ const CvProjects = () => (
 				startEnd="2020"
 			>
 				Concepting and developing a landing page for a digital
-				transformation agency. Worked with HTML, CSS, JavaScript, React
+				transformation agency. Worked with HTML, CSS, JavaScript, React,
 				and Gatsby.
 			</CvLiWithLink>
 			<CvLiWithLink title="BrasilHig" startEnd="2020">
 				Concepting and developing a landing page for a car wash company.
-				Worked with HTML, CSS, JavaScript, React and Gatsby.
+				Worked with HTML, CSS, JavaScript, React, and Gatsby.
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="WEPS"
@@ -115,7 +115,7 @@ const CvProjects = () => (
 				Concepting, developing and maintaining an app for managing
 				digital people documents. Worked with Java8, Spring Boot,
 				Hibernate/JPA, PostgreSQL, Angular8, HTML, CSS, TypeScript,
-				Angular Material and Flutter.
+				Angular Material, and Flutter.
 			</CvLiWithLink>
 			<CvLiWithLink title="PeneirasFC" startEnd="2019">
 				Concepting, developing and maintaining a platform for online
@@ -124,7 +124,7 @@ const CvProjects = () => (
 					FC Corinthians Paulista
 				</CvLinkNewTab>
 				. Worked with Java8, Spring Boot, Hibernate/JPA, PostgreSQL,
-				Angular8, HTML, CSS, TypeScript and Angular Material.
+				Angular8, HTML, CSS, TypeScript, and Angular Material.
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="MeuGuiaCarro"
@@ -134,7 +134,7 @@ const CvProjects = () => (
 				Concepting, developing and maintaining an app to request winch
 				and other services for the car. Worked with Java8, Spring Boot,
 				Hibernate/JPA, PostgreSQL, Angular8, HTML, CSS, TypeScript,
-				Angular Material, Ionic and Real-time geographic location.
+				Angular Material, Ionic, and Real-time geographic location.
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="SelectGás"
@@ -144,7 +144,7 @@ const CvProjects = () => (
 				Concepting, developing and maintaining an app to order cooking
 				gas. Worked with Java8, Spring Boot, Hibernate/JPA, PostgreSQL,
 				Angular8, HTML, CSS, TypeScript, Angular Material, Ionic,
-				Real-time geographic location and{" "}
+				Real-time geographic location, and{" "}
 				<CvLinkNewTab link="https://www.cielo.com.br">
 					Cielo
 				</CvLinkNewTab>{" "}
@@ -157,32 +157,32 @@ const CvProjects = () => (
 			>
 				Concepting, developing and maintaining a platform for managing
 				multiple cooking gas stores. Worked with Java8, Spring Boot,
-				Hibernate/JPA, PostgreSQL, Angular7, HTML, CSS, TypeScript and
+				Hibernate/JPA, PostgreSQL, Angular7, HTML, CSS, TypeScript, and
 				Angular Material.
 			</CvLiWithLink>
 			<CvLiWithLink title="Alugadinha" startEnd="2018">
 				Concepting, developing and maintaining an online house and
 				apartments catalog. Worked with Java8, Spring Boot,
 				Hibernate/JPA, PostgreSQL, Thymeleaf, HTML, CSS, JavaScript,
-				jQuery and Bootstrap.
+				jQuery, and Bootstrap.
 			</CvLiWithLink>
 			<CvLiWithLink title="EasyProtect" startEnd="2018">
 				Concepting, developing and maintaining a platform and app for
 				low cost car insurance management. Worked with Java8, Spring
 				Boot, Hibernate/JPA, PostgreSQL, Thymeleaf, HTML, CSS,
-				JavaScript, jQuery, Bootstrap and Ionic.
+				JavaScript, jQuery, Bootstrap, and Ionic.
 			</CvLiWithLink>
 			<CvLiWithLink title="FlixImóveis" startEnd="2018">
 				Concepting, developing and maintaining an online house and
 				apartments catalog. Worked with Java8, Spring Boot,
 				Hibernate/JPA, PostgreSQL, Thymeleaf, HTML, CSS, JavaScript,
-				jQuery and Bootstrap.
+				jQuery, and Bootstrap.
 			</CvLiWithLink>
 			<CvLiWithLink title="Gamelive" startEnd="2018">
 				Concepting, developing and maintaining a platform for betting on
 				soccer matches and on single lowest betting games. Worked with
 				Java8, Spring Boot, Hibernate/JPA, PostgreSQL, Thymeleaf, HTML,
-				CSS, JavaScript, jQuery and Bootstrap.
+				CSS, JavaScript, jQuery, and Bootstrap.
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="ÁreaBim"
@@ -192,7 +192,7 @@ const CvProjects = () => (
 				Concepting, developing and maintaining a building management
 				platform that shows information about the progress of works to
 				customers. Worked with Java8, Spring Boot, Hibernate/JPA,
-				PostgreSQL, Thymeleaf, HTML, CSS, JavaScript, jQuery and
+				PostgreSQL, Thymeleaf, HTML, CSS, JavaScript, jQuery, and
 				Bootstrap.
 			</CvLiWithLink>
 			<CvLiWithLink
@@ -207,7 +207,7 @@ const CvProjects = () => (
 				<CvLinkNewTab link="https://pagseguro.uol.com.br">
 					PagSeguro
 				</CvLinkNewTab>{" "}
-				integration and NFe integration.
+				integration, and NFe integration.
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="RD SemiJoias"
@@ -216,7 +216,7 @@ const CvProjects = () => (
 			>
 				Concepting, developing and maintaining a platform for managing a
 				semi-jewelry company. Worked with Java8, Spring MVC,
-				Hibernate/JPA, PostgreSQL, JSP, HTML, CSS, JavaScript, jQuery
+				Hibernate/JPA, PostgreSQL, JSP, HTML, CSS, JavaScript, jQuery,
 				and Bootstrap.
 			</CvLiWithLink>
 			<CvLiWithLink
@@ -227,7 +227,7 @@ const CvProjects = () => (
 				Concepting, developing and maintaining a platform for managing
 				the Unesp's University Restaurant and for booking and selling
 				meal tickets. Worked with Java8, Spring MVC, Hibernate/JPA,
-				PostgreSQL, JSP, HTML, CSS, JavaScript, jQuery and Bootstrap.
+				PostgreSQL, JSP, HTML, CSS, JavaScript, jQuery, and Bootstrap.
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="PLATCOL"
@@ -237,7 +237,7 @@ const CvProjects = () => (
 				Concepting, developing and maintaining an online platform of
 				collocations dictionary. Worked with Java7, Spring MVC, Spring
 				Internationalization, Hibernate/JPA, PostgreSQL, JSP, HTML, CSS,
-				JavaScript, jQuery and Bootstrap.
+				JavaScript, jQuery, and Bootstrap.
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="Portal GBD"
@@ -246,7 +246,7 @@ const CvProjects = () => (
 			>
 				Concepting, developing and maintaining a platform to show
 				information about Database Group. Worked with Java7, Spring MVC,
-				Hibernate/JPA, PostgreSQL, JSP, HTML, CSS, JavaScript, jQuery
+				Hibernate/JPA, PostgreSQL, JSP, HTML, CSS, JavaScript, jQuery,
 				and Bootstrap.
 			</CvLiWithLink>
 			<CvLiWithLink
@@ -262,7 +262,7 @@ const CvProjects = () => (
 				</CvLinkNewTab>
 				with some enhancements when compared to Portal PROPe. Worked
 				with Java7, Spring MVC, Hibernate/JPA, PostgreSQL, JSP, HTML,
-				CSS, JavaScript, jQuery and Bootstrap.
+				CSS, JavaScript, jQuery, and Bootstrap.
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="Portal PROPe"
@@ -275,7 +275,7 @@ const CvProjects = () => (
 					Lattes Platform
 				</CvLinkNewTab>
 				. Worked with Java7, Spring MVC, Hibernate/JPA, PostgreSQL, JSP,
-				HTML, CSS, JavaScript, jQuery and Bootstrap.
+				HTML, CSS, JavaScript, jQuery, and Bootstrap.
 			</CvLiWithLink>
 			<CvLiWithLink
 				title="Online English Collocations Workbook"
@@ -284,7 +284,7 @@ const CvProjects = () => (
 			>
 				Developing and maintaining a platform to learn English
 				collocations by playing games. Worked with Java7, Spring MVC,
-				Hibernate/JPA, PostgreSQL, JSP, HTML, CSS, JavaScript, jQuery
+				Hibernate/JPA, PostgreSQL, JSP, HTML, CSS, JavaScript, jQuery,
 				and Bootstrap.
 			</CvLiWithLink>
 			<CvLiWithLink
@@ -296,7 +296,7 @@ const CvProjects = () => (
 				of the congress "III Congresso Nacional de Formação de
 				Professores (CNFP) e XIII Congresso Estadual Paulista sobre
 				Formação de Educadores (CEPFE)". Worked with Java7, Spring MVC,
-				Hibernate/JPA, PostgreSQL, JSP, HTML, CSS, JavaScript, jQuery
+				Hibernate/JPA, PostgreSQL, JSP, HTML, CSS, JavaScript, jQuery,
 				and Bootstrap.
 			</CvLiWithLink>
 			<CvLiWithLink
@@ -305,12 +305,12 @@ const CvProjects = () => (
 				startEnd="2014"
 			>
 				Developing and maintaining a Scientific Events Management
-				System. Worked with Java7, PostgreSQL, HTML, CSS, JavaScript and
+				System. Worked with Java7, PostgreSQL, HTML, CSS, JavaScript, and
 				jQuery.
 			</CvLiWithLink>
 			<CvLiWithLink title="SoftGym" startEnd="2012">
 				Gym management software developed as work of completion of the
-				technical computer course. Worked with Visual Basic and MySql.
+				technical computer course. Worked with Visual Basic, and MySql.
 			</CvLiWithLink>
 		</ul>
 	</>

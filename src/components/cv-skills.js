@@ -12,13 +12,13 @@ const CvSkills = () => (
 					years), CSS (7 years), JavaScript (7 years), Scala (trained
 					in 2018), Node (trained in 2018), PHP (trained in 2017), C#
 					(trained in 2016), C (trained in 2013), C++ (trained in
-					2012), Visual Basic (trained in 2012).
+					2012), and Visual Basic (trained in 2012).
 				</p>
 			</CvCustomLi>
 			<CvCustomLi title="Databases">
 				<p>
 					PostgresQL (7 years), MySql (2 years), Neo4j (2 years),
-					MongoDB (trained in 2020), Redis (trained in 2019), Sqlite
+					MongoDB (trained in 2020), Redis (trained in 2019), and Sqlite
 					(trained in 2012).
 				</p>
 			</CvCustomLi>
@@ -31,7 +31,7 @@ const CvSkills = () => (
 					(1 year), GatsbyJS (1 year), Jenkins (trained in 2021),
 					Apache Kafka (trained in 2021), NextJS (trained in 2020),
 					Flutter (trained in 2020), AWS (trained in 2020), Webpack
-					(trained in 2018) and Laravel (trained in 2017).
+					(trained in 2018), and Laravel (trained in 2017).
 				</p>
 			</CvCustomLi>
 			<CvCustomLi title="Others">
@@ -40,7 +40,7 @@ const CvSkills = () => (
 					years), Postman (4 years), UX/UI (3 years), PWA (3 years),
 					SVN (3 years), Lombok (2 years), Unit Testing (2 years),
 					Docker (1 year), Scrum (1 year), Integration Testing (1
-					year), Kubernetes (trained in 2021) and Kanban (trained in
+					year), Kubernetes (trained in 2021), and Kanban (trained in
 					2017).
 				</p>
 			</CvCustomLi>

@@ -108,7 +108,7 @@ const CvCareer = () => (
 			>
 				Developing and maintaining Database Group's systems. Worked with
 				Java, Spring MVC, JPA/Hibernate, PostgreSQL, HTML, CSS,
-				Boostrap, JavaScript, jQuery and JSP,
+				Boostrap, JavaScript, jQuery and JSP.
 			</CvCustomLi>
 		</ul>
 	</>

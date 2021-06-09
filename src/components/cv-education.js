@@ -24,7 +24,7 @@ const CvEducation = () => (
 				svg={<SvgEducation1 />}
 				degree="180+ Technology Courses"
 				school={
-					<CvLinkNewTab link="https://alura.com.br">
+					<CvLinkNewTab link="https://cursos.alura.com.br/user/josecfreitas">
 						Alura
 					</CvLinkNewTab>
 				}
@@ -55,7 +55,7 @@ const CvEducation = () => (
 				degree="Computer Technician"
 				school={
 					<CvLinkNewTab link="http://philadelpho.com.br">
-						ETEC Philadelpho Gouvea Netto
+						ETEC Philadelpho Gouvêa Netto
 					</CvLinkNewTab>
 				}
 				startEnd="2011~2012"

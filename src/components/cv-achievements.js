@@ -12,28 +12,28 @@ const CvAchievements = () => (
 				svg={<SvgAchievements />}
 				title="Made transitivity extraction algorithm 12.76 times faster by
 				using Apache Spark."
-				subtitle={
-					<a
-						href="https://www.inderscience.com/info/inarticle.php?artid=106061"
-						target="_blank"
-						rel="noreferrer"
-					>
-						inderscience.com/info/inarticle.php?artid=106061
-					</a>
-				}
 			/>
 			<CvCustomLi
 				svg={<SvgAchievements />}
 				title="Made transitivity extraction algorithm 4.08 times faster by
 				using Multithreading."
 				subtitle={
-					<a
-						href="https://ieeexplore.ieee.org/abstract/document/8327078"
-						target="_blank"
-						rel="noreferrer"
-					>
-						ieeexplore.ieee.org/abstract/document/8327078
-					</a>
+					<>
+						<a
+							href="https://ieeexplore.ieee.org/abstract/document/8327078"
+							target="_blank"
+							rel="noreferrer"
+						>
+							ieeexplore.ieee.org/abstract/document/8327078
+						</a>
+						<a
+							href="https://www.inderscience.com/info/inarticle.php?artid=106061"
+							target="_blank"
+							rel="noreferrer"
+						>
+							inderscience.com/info/inarticle.php?artid=106061
+						</a>
+					</>
 				}
 			/>
 			<CvCustomLi

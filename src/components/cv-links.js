@@ -28,8 +28,8 @@ const CvLinks = () => (
 		/>
 		<CvLink
 			svg={<SvgGithub />}
-			link="https://github.com/jcfreitas2000"
-			linkText="github.com/jcfreitas2000"
+			link="https://github.com/josecfreitas"
+			linkText="github.com/josecfreitas"
 		/>
 		<CvLink
 			svg={<SvgLinkedin />}
