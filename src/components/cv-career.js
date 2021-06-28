@@ -8,13 +8,24 @@ const CvCareer = () => (
 		<CvSectionTitle>Career</CvSectionTitle>
 		<ul className="list-unstyled">
 			<CvCustomLi
+				title="Sr. Fullstack Developer"
+				subtitle={
+					<CvLinkNewTab link="https://www.businessinsider.com/">
+						Insider, Inc.
+					</CvLinkNewTab>
+				}
+				startEnd="2021~*"
+			>
+				Working as Sr. Fullstack Developer at Business Insider.
+			</CvCustomLi>
+			<CvCustomLi
 				title="Advanced Programmer Analyst"
 				subtitle={
 					<CvLinkNewTab link="https://www.qat.com">
 						QAT Global
 					</CvLinkNewTab>
 				}
-				startEnd="2020~*"
+				startEnd="2020~2021"
 			>
 				Developing and maintaining a large utility automation
 				application in a team of 14 people. Working with Scrum, Java,
