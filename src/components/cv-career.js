@@ -8,15 +8,55 @@ const CvCareer = () => (
 		<CvSectionTitle>Career</CvSectionTitle>
 		<ul className="list-unstyled">
 			<CvCustomLi
-				title="Sr. Fullstack Developer"
+				title="Staff Software Engineer"
 				subtitle={
-					<CvLinkNewTab link="https://www.businessinsider.com/">
-						Insider, Inc.
+					<CvLinkNewTab link="https://www.insider.com">
+						Insider, Inc. (TrueLogic)
 					</CvLinkNewTab>
 				}
-				startEnd="2021~*"
+				startEnd="2022~*"
 			>
-				Working as Sr. Fullstack Developer at Business Insider.
+				Power and support the world's most-read, most helpful, and most
+				trusted source of service journalism.
+			</CvCustomLi>
+			<CvCustomLi
+				title="Senior Software Engineer"
+				subtitle={
+					<CvLinkNewTab link="https://www.insider.com">
+						Insider, Inc. (TrueLogic)
+					</CvLinkNewTab>
+				}
+				startEnd="2021~2022"
+			>
+				Power and support the world's most-read, most helpful, and most
+				trusted source of service journalism. I worked mainly with these
+				technologies: HTML, CSS, JavaScript, Angular, Vue, TypeScript,
+				NodeJS, ExpressJS, NestJS, Go, MongoDB, ElasticSearch, Docker,
+				Kubernetes, GitHub, and many others.
+			</CvCustomLi>
+			<CvCustomLi
+				title="Co-founder"
+				subtitle={
+					<CvLinkNewTab link="https://eventos3r.com.br">
+						3R Eventos
+					</CvLinkNewTab>
+				}
+				startEnd="2018~*"
+			>
+				Throw parties to bring happiness to people's lives. My
+				responsibilities are:
+				<ul>
+					<li>Financial management</li>
+					<li>
+						Management of the team that worked at the parties: from
+						the team of bartenders to the security team, around 70
+						people
+					</li>
+					<li>SAC</li>
+					<li>
+						Helping the marketing team and creating party themes
+					</li>
+				</ul>
 			</CvCustomLi>
 			<CvCustomLi
 				title="Advanced Programmer Analyst"
@@ -27,13 +67,13 @@ const CvCareer = () => (
 				}
 				startEnd="2020~2021"
 			>
-				Developing and maintaining a large utility automation
-				application in a team of 14 people. Working with Scrum, Java,
-				Spring Boot, SQL Server, HTML, CSS, JavaScript, jQuery, Jenkins,
-				Unit Testing (JUnit) and SVN.
+				Develop and maintain a large utility automation application in a
+				team of 14 people. I worked with Scrum, Java, Spring Boot, SQL
+				Server, HTML, CSS, JavaScript, jQuery, Jenkins, Unit Testing
+				(JUnit), and SVN.
 			</CvCustomLi>
 			<CvCustomLi
-				title="Co-founder / Software Enginner"
+				title="Software Enginner"
 				subtitle={
 					<CvLinkNewTab link="https://agencia3r.com.br">
 						Bicrement Software House and 3r Agência
@@ -41,7 +81,7 @@ const CvCareer = () => (
 				}
 				startEnd="2016~2020"
 			>
-				Creating solutions with technology for entrepreneurs and
+				Create solutions with technology for entrepreneurs and
 				companies. Worked with Java, Spring Boot, HTML, CSS, JavaScript,
 				PostgreSQL, MySQL, PHP, jQuery, Bootstrap, Angular7+, React,
 				GatsbyJS, NextJS, Sass, Less, Laravel, Wordpress, Ionic,
@@ -49,40 +89,15 @@ const CvCareer = () => (
 				Postman, Git, Lombok, Adobe XD and Adobe Ilustrator.
 			</CvCustomLi>
 			<CvCustomLi
-				title="Co-founder"
-				subtitle={
-					<CvLinkNewTab link="https://eventos3r.com.br">
-						3R Eventos
-					</CvLinkNewTab>
-				}
-				startEnd="2018~2020"
-			>
-				Doing parties with an average audience of 1100 people. The last
-				party before the pandemic, in February 2020, had an audience of
-				2500 people. My responsibilities were:
-				<ul>
-					<li>Financial management</li>
-					<li>
-						Management of the team that worked at the parties: from
-						the team of bartenders to the security team, around 50
-						people
-					</li>
-					<li>SAC</li>
-					<li>
-						Helping the marketing team and creating party themes
-					</li>
-				</ul>
-			</CvCustomLi>
-			<CvCustomLi
-				title="Project Leader"
+				title="Technical Lead - Database Group"
 				subtitle={
 					<CvLinkNewTab link="https://www.grupogbd.com">
-						Database Group - GBD
+						Universidade Estadual Paulista Júlio de Mesquita Filho
 					</CvLinkNewTab>
 				}
 				startEnd="2016~2018"
 			>
-				The main responsibilities as a project leader were:
+				My main responsibilities were:
 				<ul>
 					<li>
 						Management of the teams for each project (about 3 people
@@ -104,22 +119,23 @@ const CvCareer = () => (
 					<li>Developing and maintaining Database Group's systems</li>
 				</ul>
 				<p>
-					Worked with Java, Spring Boot, JPA/Hibernate, PostgreSQL,
-					JSP HTML, CSS, Less, Boostrap, JavaScript and jQuery.
+					I also worked with Java, Spring Boot, JPA/Hibernate,
+					PostgreSQL, JSP HTML, CSS, Less, Boostrap, JavaScript and
+					jQuery.
 				</p>
 			</CvCustomLi>
 			<CvCustomLi
-				title="Java Full Stack Developer"
+				title="Software Engineer - Database Group"
 				subtitle={
 					<CvLinkNewTab link="https://www.grupogbd.com">
-						Database Group - GBD
+						Universidade Estadual Paulista Júlio de Mesquita Filho
 					</CvLinkNewTab>
 				}
 				startEnd="2014~2015"
 			>
-				Developing and maintaining Database Group's systems. Worked with
-				Java, Spring MVC, JPA/Hibernate, PostgreSQL, HTML, CSS,
-				Boostrap, JavaScript, jQuery and JSP.
+				Develop and maintain Database Group systems. I worked with Java,
+				Spring MVC, JPA/Hibernate, PostgreSQL, HTML, CSS, Boostrap,
+				JavaScript, jQuery, and JSP.
 			</CvCustomLi>
 		</ul>
 	</>

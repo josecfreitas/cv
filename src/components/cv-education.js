@@ -22,7 +22,7 @@ const CvEducation = () => (
 		<ul className="list-unstyled">
 			<EducationItem
 				svg={<SvgEducation1 />}
-				degree="180+ Technology Courses"
+				degree="200+ Technology Courses"
 				school={
 					<CvLinkNewTab link="https://cursos.alura.com.br/user/josecfreitas">
 						Alura
@@ -52,7 +52,7 @@ const CvEducation = () => (
 			/>
 			<EducationItem
 				svg={<SvgEducation1 />}
-				degree="Computer Technician"
+				degree="Associate's in Information Technology"
 				school={
 					<CvLinkNewTab link="http://philadelpho.com.br">
 						ETEC Philadelpho Gouvêa Netto

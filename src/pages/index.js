@@ -30,7 +30,7 @@ const IndexPage = () => (
 					<CvAbout />
 					<CvCareer />
 				</Col>
-				<Col lg={{offset: 4, span: 8}}>
+				<Col lg={{ offset: 4, span: 8 }}>
 					<CvSkills />
 					<CvOtherSkills />
 					<CvProjects />
